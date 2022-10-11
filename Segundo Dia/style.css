@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(gray, lightgray);
+}
+
+header h1{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0, 0, 0, 15px;
+    padding: 0 0 15px 0;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajusta-topico {
+    display: block;
+}
+
+.ajusta-topico input{
+    display: block;
+    margin: 5px 0 15px 0;
+}
+
+main #enviar:hover {
+    color: white;
+    background: rgb(0, 0, 0);
+}
