@@ -11,28 +11,42 @@ header h1{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    margin: 0, 0, 0, 15px;
+}
+
+header h2{
+    text-align: center;
     padding: 0 0 15px 0;
 }
 
 main {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+   padding-left: 5%;
 }
 
 .ajusta-topico {
     display: block;
 }
 
+.ajusta-topico label {
+    font-weight: bold;
+}
+
 .ajusta-topico input{
     display: block;
     margin: 5px 0 15px 0;
+    padding: 1px 7px;
+    width: 180px;
+    border: none;
+    border-radius: 3px;
 }
 
-main #enviar:hover {
+#enviar {
+    border-radius: 30px;
+    border: 1px solid black;
+
+}
+
+#enviar:hover {
     color: white;
     background: rgb(0, 0, 0);
 }
+

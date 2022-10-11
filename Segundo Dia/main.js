@@ -20,5 +20,9 @@ enviar.onclick = function() {
             alert('Ahh que pena... Já tentou aprender outras linguagens?');
         }
 
+        else {
+            alert('Mensagem inválida, tente novamente.');
+        }
+
     }
 }
